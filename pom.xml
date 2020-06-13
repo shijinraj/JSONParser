@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.deg.th</groupId>
+	<artifactId>jsonparser</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>jsonparser</name>
+	<description>Parse a given JSON input string input.jsonto a object model based on the inputs structure.</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<!-- library that can create Java classes using input JSON -->
+		<dependency>
+			<groupId>org.jsonschema2pojo</groupId>
+			<artifactId>jsonschema2pojo-core</artifactId>
+			<version>0.4.35</version>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.5.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+	</build>
+
+</project>
