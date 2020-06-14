@@ -8,7 +8,7 @@
 *  Make sure others can download your project properly
 *  If you want to protect your link with a password please don´t forget to send this password as well
 *  Inform our team when you have finished the task via email to `andreas.oswald@th-deg.de`
-#### Solution : Please run JsonParserTests.testGenerateObjectModel() - output into console
+#### Solution : Please run JsonParserTests.testGenerateObjectModel() - This method generate object model into the package "de.deg.th.json.parser.model" from input.json
 
 ## 2. Task description in detail:
 *  Clone this repository
